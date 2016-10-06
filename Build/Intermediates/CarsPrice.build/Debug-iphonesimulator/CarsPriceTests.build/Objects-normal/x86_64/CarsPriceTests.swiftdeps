@@ -1,0 +1,337 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CarsPriceTests"
+provides-nominal:
+- "C14CarsPriceTests14CarsPriceTests"
+provides-member:
+- ["C14CarsPriceTests14CarsPriceTests", ""]
+provides-dynamic-lookup:
+- "testValidCar"
+- "tearDown"
+- "setUp"
+- "testInValidCar1"
+- "testValidCar3"
+- "testValidCar1"
+- "testValidCar2"
+depends-top-level:
+- "XCTestCase"
+- !private "XCTAssertEqual"
+- !private "round"
+- "CarsPriceTests"
+- !private "Car"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Car"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "calculateSalePrice"]
+- !private ["Ps9AnyObject", "domain"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "round"]
+- !private ["Ps9AnyObject", "salePrice"]
+- ["Ps9AnyObject", "setUp"]
+- ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", "testInValidCar1"]
+- ["Ps9AnyObject", "testValidCar"]
+- ["Ps9AnyObject", "testValidCar1"]
+- ["Ps9AnyObject", "testValidCar2"]
+- ["Ps9AnyObject", "testValidCar3"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["Vs10ArraySlice", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "Car"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "calculateSalePrice"]
+- !private ["Ps7CVarArg", "domain"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "round"]
+- !private ["Ps7CVarArg", "salePrice"]
+- ["Ps7CVarArg", "setUp"]
+- ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", "testInValidCar1"]
+- ["Ps7CVarArg", "testValidCar"]
+- ["Ps7CVarArg", "testValidCar1"]
+- ["Ps7CVarArg", "testValidCar2"]
+- ["Ps7CVarArg", "testValidCar3"]
+- ["Ps7CVarArg", ""]
+- !private ["C9CarsPrice3Car", "calculateSalePrice"]
+- ["C9CarsPrice3Car", "deinit"]
+- !private ["C9CarsPrice3Car", "error"]
+- !private ["C9CarsPrice3Car", "init"]
+- !private ["C9CarsPrice3Car", "salePrice"]
+- !private ["C14CarsPriceTests14CarsPriceTests", "Car"]
+- !private ["C14CarsPriceTests14CarsPriceTests", "XCTAssertEqual"]
+- ["C14CarsPriceTests14CarsPriceTests", "deinit"]
+- ["C14CarsPriceTests14CarsPriceTests", "init"]
+- !private ["C14CarsPriceTests14CarsPriceTests", "round"]
+- ["C14CarsPriceTests14CarsPriceTests", "setUp"]
+- ["C14CarsPriceTests14CarsPriceTests", "tearDown"]
+- ["C14CarsPriceTests14CarsPriceTests", "testInValidCar1"]
+- ["C14CarsPriceTests14CarsPriceTests", "testValidCar"]
+- ["C14CarsPriceTests14CarsPriceTests", "testValidCar1"]
+- ["C14CarsPriceTests14CarsPriceTests", "testValidCar2"]
+- ["C14CarsPriceTests14CarsPriceTests", "testValidCar3"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs15ContiguousArray", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Car"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "calculateSalePrice"]
+- !private ["Ps28CustomDebugStringConvertible", "domain"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "round"]
+- !private ["Ps28CustomDebugStringConvertible", "salePrice"]
+- ["Ps28CustomDebugStringConvertible", "setUp"]
+- ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", "testInValidCar1"]
+- ["Ps28CustomDebugStringConvertible", "testValidCar"]
+- ["Ps28CustomDebugStringConvertible", "testValidCar1"]
+- ["Ps28CustomDebugStringConvertible", "testValidCar2"]
+- ["Ps28CustomDebugStringConvertible", "testValidCar3"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Car"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "calculateSalePrice"]
+- !private ["Ps23CustomStringConvertible", "domain"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "round"]
+- !private ["Ps23CustomStringConvertible", "salePrice"]
+- ["Ps23CustomStringConvertible", "setUp"]
+- ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", "testInValidCar1"]
+- ["Ps23CustomStringConvertible", "testValidCar"]
+- ["Ps23CustomStringConvertible", "testValidCar1"]
+- ["Ps23CustomStringConvertible", "testValidCar2"]
+- ["Ps23CustomStringConvertible", "testValidCar3"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "Car"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "calculateSalePrice"]
+- !private ["Ps9Equatable", "domain"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "round"]
+- !private ["Ps9Equatable", "salePrice"]
+- ["Ps9Equatable", "setUp"]
+- ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", "testInValidCar1"]
+- ["Ps9Equatable", "testValidCar"]
+- ["Ps9Equatable", "testValidCar1"]
+- ["Ps9Equatable", "testValidCar2"]
+- ["Ps9Equatable", "testValidCar3"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "domain"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Car"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "calculateSalePrice"]
+- !private ["Ps8Hashable", "domain"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "round"]
+- !private ["Ps8Hashable", "salePrice"]
+- ["Ps8Hashable", "setUp"]
+- ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", "testInValidCar1"]
+- ["Ps8Hashable", "testValidCar"]
+- ["Ps8Hashable", "testValidCar1"]
+- ["Ps8Hashable", "testValidCar2"]
+- ["Ps8Hashable", "testValidCar3"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "domain"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "domain"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo7NSError", "domain"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Car"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- !private ["CSo8NSObject", "calculateSalePrice"]
+- !private ["CSo8NSObject", "domain"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "round"]
+- !private ["CSo8NSObject", "salePrice"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testInValidCar1"]
+- ["CSo8NSObject", "testValidCar"]
+- ["CSo8NSObject", "testValidCar1"]
+- ["CSo8NSObject", "testValidCar2"]
+- ["CSo8NSObject", "testValidCar3"]
+- !private ["PSo16NSObjectProtocol", "Car"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "calculateSalePrice"]
+- !private ["PSo16NSObjectProtocol", "domain"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "round"]
+- !private ["PSo16NSObjectProtocol", "salePrice"]
+- ["PSo16NSObjectProtocol", "setUp"]
+- ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", "testInValidCar1"]
+- ["PSo16NSObjectProtocol", "testValidCar"]
+- ["PSo16NSObjectProtocol", "testValidCar1"]
+- ["PSo16NSObjectProtocol", "testValidCar2"]
+- ["PSo16NSObjectProtocol", "testValidCar3"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "domain"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["CSo6XCTest", "Car"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "round"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testInValidCar1"]
+- ["CSo6XCTest", "testValidCar"]
+- ["CSo6XCTest", "testValidCar1"]
+- ["CSo6XCTest", "testValidCar2"]
+- ["CSo6XCTest", "testValidCar3"]
+- !private ["CSo10XCTestCase", "Car"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- ["CSo10XCTestCase", "deinit"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "round"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testInValidCar1"]
+- ["CSo10XCTestCase", "testValidCar"]
+- ["CSo10XCTestCase", "testValidCar1"]
+- ["CSo10XCTestCase", "testValidCar2"]
+- ["CSo10XCTestCase", "testValidCar3"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Car"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "calculateSalePrice"]
+- !private ["Ps9_Hashable", "domain"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "round"]
+- !private ["Ps9_Hashable", "salePrice"]
+- ["Ps9_Hashable", "setUp"]
+- ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", "testInValidCar1"]
+- ["Ps9_Hashable", "testValidCar"]
+- ["Ps9_Hashable", "testValidCar1"]
+- ["Ps9_Hashable", "testValidCar2"]
+- ["Ps9_Hashable", "testValidCar3"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Vs10ArraySlice"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "C9CarsPrice3Car"
+- "C14CarsPriceTests14CarsPriceTests"
+- !private "Ps10Comparable"
+- !private "Vs15ContiguousArray"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/Sunny/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Sunny/Downloads/CarsPrice/Build/Products/Debug-iphonesimulator/CarsPrice.swiftmodule/x86_64.swiftmodule"
+interface-hash: "733be9ce1daaffa83801f0d51973103c"

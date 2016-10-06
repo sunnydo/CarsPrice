@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "cb60855d8e914d7261ff9afbd75bc1c9"
+build_time: [529083571, 399752000]
+inputs:
+  "/Users/Sunny/Downloads/CarsPrice/CarsPriceTests/CarsPriceTests.swift": [529083571, 0]

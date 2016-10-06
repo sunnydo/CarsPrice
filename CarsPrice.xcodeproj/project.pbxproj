@@ -12,20 +12,43 @@
 		267643BC1DA62EF500643436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267643BA1DA62EF500643436 /* Main.storyboard */; };
 		267643BE1DA62EF500643436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267643BD1DA62EF500643436 /* Assets.xcassets */; };
 		267643C11DA62EF500643436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267643BF1DA62EF500643436 /* LaunchScreen.storyboard */; };
+		267643C91DA6305000643436 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267643C81DA6305000643436 /* Car.swift */; };
+		A32854981DA69EDE0022358F /* CarsPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32854971DA69EDE0022358F /* CarsPriceTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A328549A1DA69EDE0022358F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267643AB1DA62EF500643436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267643B21DA62EF500643436;
+			remoteInfo = CarsPrice;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		267643B31DA62EF500643436 /* CarsPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		267643B61DA62EF500643436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		267643B81DA62EF500643436 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		267643B61DA62EF500643436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		267643B81DA62EF500643436 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		267643BB1DA62EF500643436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267643BD1DA62EF500643436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267643C01DA62EF500643436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267643C21DA62EF500643436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267643C81DA6305000643436 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A32854951DA69EDE0022358F /* CarsPriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsPriceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32854971DA69EDE0022358F /* CarsPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsPriceTests.swift; sourceTree = "<group>"; };
+		A32854991DA69EDE0022358F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		267643B01DA62EF500643436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32854921DA69EDE0022358F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				267643B51DA62EF500643436 /* CarsPrice */,
+				A32854961DA69EDE0022358F /* CarsPriceTests */,
 				267643B41DA62EF500643436 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				267643B31DA62EF500643436 /* CarsPrice.app */,
+				A32854951DA69EDE0022358F /* CarsPriceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +79,32 @@
 		267643B51DA62EF500643436 /* CarsPrice */ = {
 			isa = PBXGroup;
 			children = (
-				267643B61DA62EF500643436 /* AppDelegate.swift */,
-				267643B81DA62EF500643436 /* ViewController.swift */,
+				A328549F1DA6A7F30022358F /* SystemFile */,
 				267643BA1DA62EF500643436 /* Main.storyboard */,
 				267643BD1DA62EF500643436 /* Assets.xcassets */,
 				267643BF1DA62EF500643436 /* LaunchScreen.storyboard */,
 				267643C21DA62EF500643436 /* Info.plist */,
+				267643C81DA6305000643436 /* Car.swift */,
 			);
 			path = CarsPrice;
+			sourceTree = "<group>";
+		};
+		A32854961DA69EDE0022358F /* CarsPriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32854971DA69EDE0022358F /* CarsPriceTests.swift */,
+				A32854991DA69EDE0022358F /* Info.plist */,
+			);
+			path = CarsPriceTests;
+			sourceTree = "<group>";
+		};
+		A328549F1DA6A7F30022358F /* SystemFile */ = {
+			isa = PBXGroup;
+			children = (
+				267643B61DA62EF500643436 /* AppDelegate.swift */,
+				267643B81DA62EF500643436 /* ViewController.swift */,
+			);
+			path = SystemFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +127,24 @@
 			productReference = 267643B31DA62EF500643436 /* CarsPrice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A32854941DA69EDE0022358F /* CarsPriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A328549E1DA69EDF0022358F /* Build configuration list for PBXNativeTarget "CarsPriceTests" */;
+			buildPhases = (
+				A32854911DA69EDE0022358F /* Sources */,
+				A32854921DA69EDE0022358F /* Frameworks */,
+				A32854931DA69EDE0022358F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A328549B1DA69EDE0022358F /* PBXTargetDependency */,
+			);
+			name = CarsPriceTests;
+			productName = CarsPriceTests;
+			productReference = A32854951DA69EDE0022358F /* CarsPriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +158,11 @@
 					267643B21DA62EF500643436 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+					};
+					A32854941DA69EDE0022358F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 267643B21DA62EF500643436;
 					};
 				};
 			};
@@ -114,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				267643B21DA62EF500643436 /* CarsPrice */,
+				A32854941DA69EDE0022358F /* CarsPriceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +196,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A32854931DA69EDE0022358F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,10 +212,27 @@
 			files = (
 				267643B91DA62EF500643436 /* ViewController.swift in Sources */,
 				267643B71DA62EF500643436 /* AppDelegate.swift in Sources */,
+				267643C91DA6305000643436 /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32854911DA69EDE0022358F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32854981DA69EDE0022358F /* CarsPriceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A328549B1DA69EDE0022358F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267643B21DA62EF500643436 /* CarsPrice */;
+			targetProxy = A328549A1DA69EDE0022358F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		267643BA1DA62EF500643436 /* Main.storyboard */ = {
@@ -280,6 +371,32 @@
 			};
 			name = Release;
 		};
+		A328549C1DA69EDF0022358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarsPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sunny.CarsPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarsPrice.app/CarsPrice";
+			};
+			name = Debug;
+		};
+		A328549D1DA69EDF0022358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarsPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sunny.CarsPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarsPrice.app/CarsPrice";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -297,6 +414,15 @@
 			buildConfigurations = (
 				267643C61DA62EF500643436 /* Debug */,
 				267643C71DA62EF500643436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A328549E1DA69EDF0022358F /* Build configuration list for PBXNativeTarget "CarsPriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A328549C1DA69EDF0022358F /* Debug */,
+				A328549D1DA69EDF0022358F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

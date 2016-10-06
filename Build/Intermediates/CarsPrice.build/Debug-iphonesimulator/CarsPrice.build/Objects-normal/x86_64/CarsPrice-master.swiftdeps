@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "8e28f8cc6efe310b55738042a37af855"
+build_time: [529083644, 274665000]
+inputs:
+  "/Users/Sunny/Downloads/CarsPrice/CarsPrice/ViewController.swift": [529083609, 0]
+  "/Users/Sunny/Downloads/CarsPrice/CarsPrice/AppDelegate.swift": [529052661, 0]
+  "/Users/Sunny/Downloads/CarsPrice/CarsPrice/Car.swift": [529082659, 0]
