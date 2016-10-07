@@ -9,10 +9,8 @@
 import UIKit
 
 class Car: NSObject {
-    var name: String!
-    var capacity: CGFloat!
-    var country: String!
-    var originalPrice: CGFloat!
+    var name, country: String!
+    var capacity, originalPrice: CGFloat!
     var salePrice:CGFloat! = 0
     var error: NSError? = nil
     //init object
